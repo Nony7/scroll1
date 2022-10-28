@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+
+
+
+
+}
+
+#cursor{
+    width: 50px;
+        height: 50px;
+        background-color:red;
+        mix-blend-mode: difference;
+        border-radius: 50%;
+
+
+        position:fixed;
+        z-index: 999;
+
+
+
+
+        transition-timing-function: ease-in-out;
+        transition: 0.1s;
+}
+
+#main{
+width: 100%;
+min-height: 100vh;
+
+}
+#section1{
+    width: 100%;
+    min-height: 100vh;
+   
+    
+    
+    background-color: black;
+    overflow: hidden !important;
+        
+
+
+}
+
+.container{
+    background-color: black;
+  position: relative;
+    margin-top: 70px;
+    
+
+
+}
+
+.block{
+   
+    width: 400px;
+    height: 500px;
+    margin-left: 500px;
+    position: relative;
+    transform-style:preserve-3d;
+    transform: perspective(4000px);
+   
+
+}
+
+.head22{
+    position: absolute;
+    font-size: 4.3vw;
+    padding: 1.5vw;
+
+    transform: skewX(20deg) rotate(10deg) translateZ(100px);
+    font-family: 'Monument';
+    color:red;
+}
+
+
+#head55{
+    transform: rotate(90deg) translateZ(250px);
+    padding: 3.5vw 0;
+   top: 100px;
+   left:-90px;
+}
+#head44{
+    top: -50px;
+    padding: 4vw 0;
+    font-size: 5vw;
+  
+}
+#head33{
+    transform: rotate(180deg) translateZ(250px);
+    top: 300px;
+    left:70px;
+    font-size: 5.5vw;
+}
+#head22{
+    transform: skewX(20deg) rotate(-70deg) translateZ(350px);
+     top: 190px;
+     font-weight: 100;
+    left:-110px; 
+    font-size: 5.5vw;
+}
+
+
+
+
+#b1{
+    background-image: url("download (1).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+}
+
+#b2{
+    background-image: url("one4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+}
+#b3{
+    background-image: url("ali-pazani-vnIo3jkhZuI-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 30% 10%;
+
+}
+
+#b4{
+    background-image: url("Photos_ From the Archives_ Italian Glam Slam.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 30% 10%;
+}
+
+#b5{
+    background-image: url("igor-rand-qGQfRP9-olI-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-right:50px ;
+
+}
+
+/* #b6{
+    background-image: url("nati-melnychuk-r0GYk9r0WYM-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+}
+#b7{
+    background-image: url("nati-melnychuk-r0GYk9r0WYM-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+}
+#b8{
+    background-image: url("nati-melnychuk-r0GYk9r0WYM-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+} */
+
+
+@media screen and (max-width: 600px) {
+  #section1 {
+/*     background: rgb(4,4,4);
+background: linear-gradient(90deg, rgba(4,4,4,1) 14%, rgba(255,255,255,1) 53%, rgba(0,0,0,1) 100%, rgba(62,3,3,1) 100%, rgba(0,0,0,1) 100%);
+background: rgb(0,0,0);
+
+
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(255,0,22,1) 51%, rgba(0,0,0,1) 100%, rgba(62,3,3,1) 100%, rgba(0,0,0,1) 100%);*/
+
+background: linear-gradient(90deg, rgba(0,0,0,1) 17%, rgba(0,255,29,1) 64%, rgba(0,0,0,1) 100%, rgba(62,3,3,1) 100%, rgba(0,0,0,1) 100%); 
+
+  }
+  
+.container{
+    background-color: black;
+  position: relative;
+    margin-top: 70px;
+    
+ 
+
+}
+
+#b1{
+    margin-left: 80px;
+}
+
+.block{
+   
+    width: 350px;
+    height: 400px;
+    margin-left: 300px;
+    position: relative;
+
+}
+
+.head22{
+    position: absolute;
+    font-size: 5.3vw;
+    padding: 1.5vw;
+    color:lime;
+    -webkit-text-stroke-color: lime;
+    -webkit-text-stroke-width: 2px;
+    transform: skewX(20deg) rotate(10deg) translateZ(50px);
+  
+}
+#head11{
+    font-size: 8.5vw;
+    transform: skewX(-10deg) rotate(10deg);
+}
+#head55{
+ 
+ 
+   top: 140px;
+   left:-90px;
+   letter-spacing: 5px;
+   font-size: 10vw;
+}
+#head44{
+    top: -20px;
+    padding: 4vw 0;
+    font-size: 11vw;
+  
+}
+#head33{
+   
+    letter-spacing: 4px;
+    left:60px;
+    font-size: 10vw;
+}
+#head22{
+   
+     top: 170px;
+ 
+    font-size: 10vw;
+}
+
+#cursor{
+    background-color: lime;
+}
+
+
+
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div id="main">
+
+        <div id="cursor"></div>
+
+        <div id="section1">
+
+            <div class="container">
+                <div class="block" id="b1">
+                    <h2 class="head22" id="head11" >ARMANI EXCHANGE</h2>
+                </div>
+                <div class="block" id="b2" >
+                    <h2 class="head22"  id="head22">MONT BLANC</h2>
+                </div>
+                <div class="block" id="b3" >
+                    <h2 class="head22" id="head33">GIVENCHY</h2>
+                </div>
+                <div class="block" id="b4" >
+                    <h2 class="head22"  id="head44">HANS KAINZ</h2>
+                </div>
+                <div class="block" id="b5" >
+                    <h2 class="head22" id="head55">VERSACE</h2>
+                </div>
+               
+            </div>
+
+        </div>
+
+ <div id="section2">
+
+   
+
+
+
+</div>
+
+
+
+
+    </div>
+
+
+
+
+   <!--  <script src="socks.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/horizontal-scroll@1.1.0/dist/index.min.js"></script>
+    
+    <script>
+
+var blocks = document.getElementsByClassName('block');
+var container = document.getElementsByClassName('container');
+var hs = new HorizontalScroll.default({
+	blocks : blocks,
+	container: container,
+    isAnimated:true,
+    springEffect:2.2,
+});
+    </script>
+
+<script>
+
+var muse=document.getElementById("cursor");
+     document.addEventListener("mousemove", function(details){
+
+        muse.style.left=`${details.x}px`;
+        muse.style.top=`${details.y}px`;
+
+
+
+} );
+</script>
+
+
+</body>
+</html>
